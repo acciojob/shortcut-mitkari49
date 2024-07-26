@@ -1,6 +1,6 @@
 function shortcut(s1, s2) {
 	if(s1!==""||s2!==""){
-		return s1.CharAt[0]+s2.CharAt[0];
+		return s1.charAt(0)+s2.charAt(0);
 	}
 	else{
 		return '';
